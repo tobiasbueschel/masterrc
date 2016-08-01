@@ -3,7 +3,7 @@ var fs = require("fs");
 
 // TODO: TWO COMMANDS
 
-// (1) merge - looks for all .dotfiles in given folder and merges them into .masterrc
+// (1) merge - looks for all .dotfiles (make sure that we exclude folders) in given folder and merges them into .masterrc
 // (2) unmerge - splits content of .masterrc and creates respective files
 
 // Usage:
