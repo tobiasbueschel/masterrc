@@ -1,1 +1,1 @@
-# dotmerge
+# masterrc
