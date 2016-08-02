@@ -1,5 +1,5 @@
 {
-  "name": "dotmerge",
+  "name": "masterrc",
   "version": "0.0.1",
   "description": "Merge all your .dotfiles into .masterrc",
   "main": "index.js",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiasbueschel/dotmerge.git"
+    "url": "git+https://github.com/tobiasbueschel/masterrc.git"
   },
-  "author": "Tobias Büschel",
+  "author": [
+    "Luke Jackson",
+    "Tobias Büschel"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tobiasbueschel/dotmerge/issues"
+    "url": "https://github.com/tobiasbueschel/masterrc/issues"
   },
-  "homepage": "https://github.com/tobiasbueschel/dotmerge#readme"
+  "homepage": "https://github.com/tobiasbueschel/masterrc#readme"
 }
