@@ -1,8 +1,29 @@
 # masterrc
+[![version](https://img.shields.io/npm/v/masterrc.svg?style=flat-square)](http://npm.im/masterrc)
+[![downloads](https://img.shields.io/npm/dm/masterrc.svg?style=flat-square)](http://npm-stat.com/charts.html?package=masterrc)
+[![MIT License](https://img.shields.io/npm/l/masterrc.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-An rc file for rc files.
+> An rc file for rc files.
 
-# License
+Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.
+
+
+## Usage
+(1) Download masterrc from npm and make the command line tool available globally.
+```bash
+$ npm install -g masterrc && npm link
+```
+(2) Open your project folder and create a `.masterrc` file using the format described in the template.
+```bash
+$ cd yourDirectory/yourRepository
+$ touch .masterrc
+```
+(3) Generate your .dotfiles
+```bash
+$ masterrc
+```
+
+## License
 
 The MIT License (MIT)
 
