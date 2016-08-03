@@ -6,7 +6,7 @@
   <a href="http://opensource.org/licenses/MIT"><img alt="MIT License Shield" src="https://img.shields.io/npm/l/masterrc.svg?style=flat-square)"></a>
 </h1>
 
-![masterrc gif](https://media.giphy.com/media/3o7TKCokmrW9ozytOg/giphy.gif)
+![masterrc gif](https://media.giphy.com/media/3o6Zt4h6LP9c39qIXC/giphy.gif)
 
 > An rc file for rc files
 
