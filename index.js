@@ -9,7 +9,9 @@ let template = {
 let lines;
 
 try {
-  lines = fs.readFileSync(__dirname + '/.masterrc', 'utf8').split(/\n/);
+  console.log("current cwd");
+  console.log(process.cwd() + '/.masterrc');
+  lines = fs.readFileSync(process.cwd() + '/.masterrc', 'utf8').split(/\n/);
 } catch(e) {
   console.log('[ERR] .masterrc file was not found');
   return;
@@ -42,5 +44,5 @@ lines.forEach(line => {
 
 // Create a file from each template
 templates.forEach(x => {
-  fs.writeFileSync(__dirname + '/' + x.name, x.contents);
+  fs.writeFileSync(process.cwd() + '/' + x.name, x.contents);
 });
