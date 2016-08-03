@@ -10,7 +10,7 @@
 
 > An rc file for rc files
 
-Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.
+Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a `.masterrc` file that automatically builds all of them for you.
 
 ## Usage
 (1) Download masterrc from npm and make the command line tool available globally.
