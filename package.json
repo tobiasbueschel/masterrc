@@ -1,6 +1,6 @@
 {
   "name": "masterrc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Merge all your .dotfiles into .masterrc",
   "main": "index.js",
   "scripts": {

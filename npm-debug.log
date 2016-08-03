@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.5
+3 info using node@v6.3.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Tobias/Desktop/github/masterrc',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Tobias/.npm/masterrc/0.0.6/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Tobias/.npm correctMkdir not in flight; initializing
+10 info lifecycle masterrc@0.0.6~prepublish: masterrc@0.0.6
+11 silly lifecycle masterrc@0.0.6~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/Tobias/.npm/masterrc/0.0.6/package.tgz',
+12 verbose tar pack   '/Users/Tobias/Desktop/github/masterrc' ]
+13 verbose tarball /Users/Tobias/.npm/masterrc/0.0.6/package.tgz
+14 verbose folder /Users/Tobias/Desktop/github/masterrc
+15 verbose addLocalTarball adding from inside cache /Users/Tobias/.npm/masterrc/0.0.6/package.tgz
+16 verbose correctMkdir /Users/Tobias/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd masterrc@0.0.6
+18 verbose afterAdd /Users/Tobias/.npm/masterrc/0.0.6/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/Tobias/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/Tobias/.npm/masterrc/0.0.6/package/package.json written
+21 silly publish { name: 'masterrc',
+21 silly publish   version: '0.0.6',
+21 silly publish   description: 'Merge all your .dotfiles into .masterrc',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/tobiasbueschel/masterrc.git' },
+21 silly publish   author: '',
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/tobiasbueschel/masterrc/issues' },
+21 silly publish   homepage: 'https://github.com/tobiasbueschel/masterrc#readme',
+21 silly publish   bin: { masterrc: './index.js' },
+21 silly publish   readme: '<h1 align="center">masterrc\n  <br>\n  <a href="https://github.com/tobiasbueschel/awesome-pokemon/pulls"><img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>\n  <a href="http://npm.im/masterrc"><img alt="NPM Version Shield" src="https://img.shields.io/npm/v/masterrc.svg?style=flat-square"></a>\n  <a href="http://npm-stat.com/charts.html?package=masterrc"><img alt="NPM Download Shield" src="https://img.shields.io/npm/dm/masterrc.svg?style=flat-square"></a>\n  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License Shield" src="https://img.shields.io/npm/l/masterrc.svg?style=flat-square)"></a>\n</h1>\n\n![masterrc gif](https://media.giphy.com/media/3o7TKCokmrW9ozytOg/giphy.gif)\n\n> An rc file for rc files\n\nDoes your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.\n\n## Usage\n(1) Download masterrc from npm and make the command line tool available globally.\n```bash\n$ npm install -g masterrc && npm link\n```\n(2) Open your project folder and create a `.masterrc` file using the format described in the template.\n```bash\n$ cd yourDirectory/yourRepository\n$ touch .masterrc\n```\n(3) Generate your .dotfiles\n```bash\n$ masterrc\n```\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Luke Jackson & Tobias Büschel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'c916357a1e7c9dcbebf7ea9e2570f053565420f1',
+21 silly publish   _id: 'masterrc@0.0.6',
+21 silly publish   _shasum: '76ee0c587872ce9d286380080cf11be0865fed0a',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name masterrc
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'masterrc',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'masterrc',
+26 silly mapToRegistry   name: 'masterrc',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/masterrc
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/Tobias/.npm/masterrc/0.0.6/package.tgz
+30 verbose request uri https://registry.npmjs.org/masterrc
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 2:38:58 PM
+33 verbose request using bearer token for auth
+34 verbose request id 233beefad21a1262
+35 http request PUT https://registry.npmjs.org/masterrc
+36 http 403 https://registry.npmjs.org/masterrc
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 03 Aug 2016 18:38:59 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-bos8232-BOS',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1470249538.969820,VS0,VE642',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/Tobias/.npm/registry.npmjs.org/masterrc on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.6." : masterrc
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:101:20)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid masterrc
+43 verbose cwd /Users/Tobias/Desktop/github/masterrc
+44 error Darwin 16.0.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.3.1
+47 error npm  v3.10.5
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.6." : masterrc
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
