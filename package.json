@@ -1,7 +1,7 @@
 {
   "name": "masterrc",
-  "version": "0.0.8",
-  "description": "Merge all your .dotfiles into .masterrc",
+  "version": "0.1.0",
+  "description": "Manage all your .dotfiles from one central .masterrc file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
