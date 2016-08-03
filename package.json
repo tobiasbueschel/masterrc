@@ -1,6 +1,6 @@
 {
   "name": "masterrc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Merge all your .dotfiles into .masterrc",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/tobiasbueschel/masterrc#readme",
   "bin": {
     "masterrc": "./index.js"
-  }
+},
+  "files": [
+      "index.js"
+  ]
 }

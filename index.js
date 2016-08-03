@@ -9,8 +9,6 @@ let template = {
 let lines;
 
 try {
-  console.log("current cwd");
-  console.log(process.cwd() + '/.masterrc');
   lines = fs.readFileSync(process.cwd() + '/.masterrc', 'utf8').split(/\n/);
 } catch(e) {
   console.log('[ERR] .masterrc file was not found');

@@ -15,14 +15,27 @@ Does your project contain too many _unnecessary_ .dotfiles that clutter up your 
 ## Usage
 (1) Download masterrc from npm and make the command line tool available globally.
 ```bash
-$ npm install -g masterrc && npm link
+$ npm install -g masterrc
 ```
-(2) Open your project folder and create a `.masterrc` file using the format described in the template.
+(2) Open your project folder.
 ```bash
 $ cd yourDirectory/yourRepository
-$ touch .masterrc
 ```
-(3) Generate your .dotfiles
+
+(3) Create a `.masterrc` file using the following format:
+````
+```.eslintrc
+{
+  "extends": "airbnb-base"
+}
+```
+
+```.dotfile-name
+   // copy paste dotfile content here    
+```
+````
+
+(4) Generate your .dotfiles
 ```bash
 $ masterrc
 ```
