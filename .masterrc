@@ -1,0 +1,24 @@
+```.eslintrc
+
+{
+  "extends": "airbnb-base"
+}
+
+```
+
+```.babelrc
+
+{
+  "presets": ["es2015"]
+}
+
+```
+
+```.gitignore
+
+DS_Store
+node_modules
+.eslintrc
+.babelrc
+
+```
