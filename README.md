@@ -1,12 +1,10 @@
-# masterrc
-[![version](https://img.shields.io/npm/v/masterrc.svg?style=flat-square)](http://npm.im/masterrc)
-[![downloads](https://img.shields.io/npm/dm/masterrc.svg?style=flat-square)](http://npm-stat.com/charts.html?package=masterrc)
-[![MIT License](https://img.shields.io/npm/l/masterrc.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+# masterrc [![version](https://img.shields.io/npm/v/masterrc.svg?style=flat-square)](http://npm.im/masterrc) [![downloads](https://img.shields.io/npm/dm/masterrc.svg?style=flat-square)](http://npm-stat.com/charts.html?package=masterrc) [![MIT License](https://img.shields.io/npm/l/masterrc.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 > An rc file for rc files.
 
-Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.
+![masterrc gif](https://media.giphy.com/media/3o7TKCokmrW9ozytOg/giphy.gif)
 
+Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.
 
 ## Usage
 (1) Download masterrc from npm and make the command line tool available globally.
