@@ -25,15 +25,15 @@ $ cd yourDirectory/yourRepository
 (3) Create a `.masterrc` file using the following format:
 
 ```
-​```.eslintrc
+​`​``​​​.eslintrc
 {
   "extends": "airbnb-base"
 }
-​``` 
+​`​``
 
-​```.dotfile-name
+​`​``​​​​​​.dotfile-name
    // copy paste dotfile content here    
-​```
+​`​``
 ```
 
 (4) Generate your .dotfiles
