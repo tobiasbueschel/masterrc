@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tobiasbueschel/masterrc/issues"
   },
-  "homepage": "https://github.com/tobiasbueschel/masterrc#readme"
+  "homepage": "https://github.com/tobiasbueschel/masterrc#readme",
+  "bin": {
+    "masterrc": "./index.js"
+  }
 }
