@@ -24,5 +24,13 @@
 },
   "files": [
       "index.js"
+  ],
+  "keywords": [
+      "dotfile",
+      "dotfiles",
+      "configuration",
+      "config",
+      "gitignore",
+      "rc"
   ]
 }
