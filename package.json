@@ -1,6 +1,6 @@
 {
   "name": "masterrc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Manage all your .dotfiles from one central .masterrc file",
   "main": "index.js",
   "scripts": {
