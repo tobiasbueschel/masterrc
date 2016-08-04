@@ -10,13 +10,21 @@
 
 > An rc file for rc files
 
-Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a master rc file that automatically builds all of them for you.
+Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a `.masterrc` file that automatically builds all of them for you.
+
+### Before `masterrc`
+![.dotfile hell](http://i.imgur.com/NwwFRMo.png)
+
+### After `masterrc`
+![.masterrc saves the day](http://i.imgur.com/mYyz6Re.png)
 
 ## Usage
 (1) Download masterrc from npm and make the command line tool available globally.
 ```bash
 $ npm install -g masterrc
 ```
+_[alternatively you could install `masterrc` as a dev dependency and configure it to run with your npm / gulp / grunt build script]_
+
 (2) Open your project folder.
 ```bash
 $ cd yourDirectory/yourRepository
@@ -24,17 +32,7 @@ $ cd yourDirectory/yourRepository
 
 (3) Create a `.masterrc` file using the following format:
 
-```
-​`​``​​​.eslintrc
-{
-  "extends": "airbnb-base"
-}
-​`​``
-
-​`​``​​​​​​.dotfile-name
-   // copy paste dotfile content here    
-​`​``
-```
+![usage instructions](http://i.imgur.com/oIWI8TX.png)
 
 (4) Generate your .dotfiles
 
