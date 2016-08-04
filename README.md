@@ -12,6 +12,12 @@
 
 Does your project contain too many _unnecessary_ .dotfiles that clutter up your repository? Masterrc removes this clutter by creating a `.masterrc` file that automatically builds all of them for you.
 
+### Before `masterrc`
+![.dotfile hell](http://i.imgur.com/NwwFRMo.png)
+
+### After `masterrc`
+![.masterrc saves the day](http://i.imgur.com/mYyz6Re.png)
+
 ## Usage
 (1) Download masterrc from npm and make the command line tool available globally.
 ```bash
