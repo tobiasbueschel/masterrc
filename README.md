@@ -17,6 +17,8 @@ Does your project contain too many _unnecessary_ .dotfiles that clutter up your 
 ```bash
 $ npm install -g masterrc
 ```
+_[alternatively you could install `masterrc` as a dev dependency and configure it to run with your npm / gulp / grunt build script]_
+
 (2) Open your project folder.
 ```bash
 $ cd yourDirectory/yourRepository
@@ -24,17 +26,7 @@ $ cd yourDirectory/yourRepository
 
 (3) Create a `.masterrc` file using the following format:
 
-```
-​`​``​​​.eslintrc
-{
-  "extends": "airbnb-base"
-}
-​`​``
-
-​`​``​​​​​​.dotfile-name
-   // copy paste dotfile content here    
-​`​``
-```
+![usage instructions](http://i.imgur.com/oIWI8TX.png)
 
 (4) Generate your .dotfiles
 
