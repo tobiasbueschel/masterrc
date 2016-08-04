@@ -25,16 +25,11 @@ $ npm install -g masterrc
 ```
 _[alternatively you could install `masterrc` as a dev dependency and configure it to run with your npm / gulp / grunt build script]_
 
-(2) Open your project folder.
-```bash
-$ cd yourDirectory/yourRepository
-```
-
-(3) Create a `.masterrc` file using the following format:
+(2) Create a `.masterrc` file in your repository using the following format:
 
 ![usage instructions](http://i.imgur.com/oIWI8TX.png)
 
-(4) Generate your .dotfiles
+(3) Generate your .dotfiles
 
 ```bash
 $ masterrc
